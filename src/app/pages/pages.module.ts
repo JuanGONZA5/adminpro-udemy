@@ -1,3 +1,4 @@
+import { RxjsComponent } from './rxjs/rxjs.component';
 import { GraficoDonaComponent } from './../components/grafico-dona/grafico-dona.component';
 import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
@@ -12,6 +13,8 @@ import { SharedModule } from '../shared/shared.module';
 import { PAGES_ROUTES } from './pages.routes';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+
 
 
 @NgModule({
@@ -23,7 +26,9 @@ declarations: [
     Graficas1Component,
     IncrementadorComponent,
     GraficoDonaComponent,
-    AccoutSettingsComponent
+    AccoutSettingsComponent,
+    PromesasComponent,
+    RxjsComponent
 ],
 
 exports: [

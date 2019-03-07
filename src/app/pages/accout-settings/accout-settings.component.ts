@@ -25,7 +25,7 @@ export class AccoutSettingsComponent implements OnInit {
 
 let selectores: any = document.getElementsByClassName('selector');
 
-for(let ref of selectores){
+for (let ref of selectores){
 ref.classList.remove('working');
 }
 
